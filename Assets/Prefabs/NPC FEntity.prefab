@@ -1,0 +1,159 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3159081701666484402
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3159081701666484366}
+  - component: {fileID: 3159081701666484401}
+  - component: {fileID: 3159081701666484400}
+  - component: {fileID: 3159081701666484403}
+  - component: {fileID: -3298489739323660586}
+  - component: {fileID: -2400628490128647805}
+  - component: {fileID: 4953966844855128787}
+  - component: {fileID: -9082443741031307363}
+  m_Layer: 0
+  m_Name: NPC FEntity
+  m_TagString: Entity
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3159081701666484366
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3159081701666484402}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.0373759, y: -1.1915388, z: -8.106538}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3159081701666484401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3159081701666484402}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 924b92dc90a774f449b0d7625e340d84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  components: []
+--- !u!114 &3159081701666484400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3159081701666484402}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb42783f8cd6b4c4fb0804351f1cfc79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  componentEnabled: 1
+  priority: 100
+  setup: 0
+  parentEntity: {fileID: 0}
+  x: 0
+  y: 0
+  carried: 0
+  carrier: {fileID: 0}
+--- !u!114 &3159081701666484403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3159081701666484402}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ad07118818b74a4ca6b8f347b5de48c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  componentEnabled: 1
+  priority: 100
+  setup: 0
+  parentEntity: {fileID: 0}
+--- !u!114 &-3298489739323660586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3159081701666484402}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 725e54188e9f142cba7dce4d80a7fb09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  componentEnabled: 1
+  priority: 100
+  setup: 0
+  parentEntity: {fileID: 0}
+  hp: 5
+  max_hp: 5
+  isOrganic: 1
+--- !u!114 &-2400628490128647805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3159081701666484402}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52377a3f8c12d4388ad82086a56cb20f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  componentEnabled: 1
+  priority: 100
+  setup: 0
+  parentEntity: {fileID: 0}
+  contents: []
+  concealed: 0
+--- !u!114 &4953966844855128787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3159081701666484402}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f3dfaa64fe754113b6f00a824ad1c8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  componentEnabled: 1
+  priority: 100
+  setup: 0
+  parentEntity: {fileID: 0}
+--- !u!114 &-9082443741031307363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3159081701666484402}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec8b5eb751ce340e9a7225d92e8e0ff1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  componentEnabled: 1
+  priority: 100
+  setup: 0
+  parentEntity: {fileID: 0}
+  _name: 
+  hexColor: 

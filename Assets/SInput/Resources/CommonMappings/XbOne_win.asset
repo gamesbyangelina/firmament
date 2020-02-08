@@ -1,0 +1,276 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39d42286b245743bfbb10bfa223892e5, type: 3}
+  m_Name: XbOne_win
+  m_EditorClassIdentifier: 
+  names:
+  - MICROSOFT XBOX ONE WIRED CONTROLLER
+  - MICROSOFT XBOX ONE WIRELESS CONTROLLER
+  - MICROSOFT XBOX ONE CONTROLLER
+  - Controller (Xbox One For Windows)
+  partialNames:
+  - one
+  - xbox
+  - microsoft
+  isDefault: 1
+  os: 2
+  buttons:
+  - buttonType: 1
+    buttonNumber: 0
+    displayName: A
+  - buttonType: 2
+    buttonNumber: 1
+    displayName: B
+  - buttonType: 3
+    buttonNumber: 2
+    displayName: X
+  - buttonType: 4
+    buttonNumber: 3
+    displayName: Y
+  - buttonType: 5
+    buttonNumber: 4
+    displayName: LB
+  - buttonType: 6
+    buttonNumber: 5
+    displayName: RB
+  - buttonType: 9
+    buttonNumber: 8
+    displayName: L3
+  - buttonType: 10
+    buttonNumber: 9
+    displayName: R3
+  - buttonType: 23
+    buttonNumber: 7
+    displayName: Start
+  - buttonType: 24
+    buttonNumber: 6
+    displayName: Back
+  axis:
+  - buttonType: 15
+    axisNumber: 1
+    invert: 1
+    clamp: 1
+    compareGreater: 1
+    compareVal: 0.4
+    rescaleAxis: 0
+    rescaleAxisMin: 0
+    rescaleAxisMax: 1
+    defaultVal: 0
+    displayName: Left
+  - buttonType: 16
+    axisNumber: 1
+    invert: 0
+    clamp: 1
+    compareGreater: 1
+    compareVal: 0.4
+    rescaleAxis: 0
+    rescaleAxisMin: 0
+    rescaleAxisMax: 1
+    defaultVal: 0
+    displayName: Right
+  - buttonType: 26
+    axisNumber: 1
+    invert: 0
+    clamp: 0
+    compareGreater: 1
+    compareVal: 0.4
+    rescaleAxis: 0
+    rescaleAxisMin: 0
+    rescaleAxisMax: 1
+    defaultVal: 0
+    displayName: Horizontal
+  - buttonType: 17
+    axisNumber: 2
+    invert: 1
+    clamp: 1
+    compareGreater: 1
+    compareVal: 0.4
+    rescaleAxis: 0
+    rescaleAxisMin: 0
+    rescaleAxisMax: 1
+    defaultVal: 0
+    displayName: Up
+  - buttonType: 18
+    axisNumber: 2
+    invert: 0
+    clamp: 1
+    compareGreater: 1
+    compareVal: 0.4
+    rescaleAxis: 0
+    rescaleAxisMin: 0
+    rescaleAxisMax: 1
+    defaultVal: 0
+    displayName: Down
+  - buttonType: 27
+    axisNumber: 2
+    invert: 1
+    clamp: 0
+    compareGreater: 1
+    compareVal: 0.4
+    rescaleAxis: 0
+    rescaleAxisMin: 0
+    rescaleAxisMax: 1
+    defaultVal: 0
+    displayName: Vertical
+  - buttonType: 19
+    axisNumber: 4
+    invert: 1
+    clamp: 1
+    compareGreater: 1
+    compareVal: 0.4
+    rescaleAxis: 0
+    rescaleAxisMin: 0
+    rescaleAxisMax: 1
+    defaultVal: 0
+    displayName: R_Left
+  - buttonType: 20
+    axisNumber: 4
+    invert: 0
+    clamp: 1
+    compareGreater: 1
+    compareVal: 0.4
+    rescaleAxis: 0
+    rescaleAxisMin: 0
+    rescaleAxisMax: 1
+    defaultVal: 0
+    displayName: R_Right
+  - buttonType: 28
+    axisNumber: 4
+    invert: 0
+    clamp: 0
+    compareGreater: 1
+    compareVal: 0.4
+    rescaleAxis: 0
+    rescaleAxisMin: 0
+    rescaleAxisMax: 1
+    defaultVal: 0
+    displayName: R_Horizontal
+  - buttonType: 21
+    axisNumber: 5
+    invert: 1
+    clamp: 1
+    compareGreater: 1
+    compareVal: 0.4
+    rescaleAxis: 0
+    rescaleAxisMin: 0
+    rescaleAxisMax: 1
+    defaultVal: 0
+    displayName: R_Up
+  - buttonType: 22
+    axisNumber: 5
+    invert: 0
+    clamp: 1
+    compareGreater: 1
+    compareVal: 0.4
+    rescaleAxis: 0
+    rescaleAxisMin: 0
+    rescaleAxisMax: 1
+    defaultVal: 0
+    displayName: R_Down
+  - buttonType: 29
+    axisNumber: 5
+    invert: 1
+    clamp: 0
+    compareGreater: 1
+    compareVal: 0.4
+    rescaleAxis: 0
+    rescaleAxisMin: 0
+    rescaleAxisMax: 1
+    defaultVal: 0
+    displayName: R_Vertical
+  - buttonType: 7
+    axisNumber: 9
+    invert: 0
+    clamp: 0
+    compareGreater: 1
+    compareVal: 0.4
+    rescaleAxis: 0
+    rescaleAxisMin: 0
+    rescaleAxisMax: 1
+    defaultVal: 0
+    displayName: LT
+  - buttonType: 8
+    axisNumber: 10
+    invert: 0
+    clamp: 0
+    compareGreater: 1
+    compareVal: 0.4
+    rescaleAxis: 0
+    rescaleAxisMin: 0
+    rescaleAxisMax: 1
+    defaultVal: 0
+    displayName: RT
+  - buttonType: 11
+    axisNumber: 6
+    invert: 1
+    clamp: 1
+    compareGreater: 1
+    compareVal: 0.4
+    rescaleAxis: 0
+    rescaleAxisMin: 0
+    rescaleAxisMax: 1
+    defaultVal: 0
+    displayName: DPAD Left
+  - buttonType: 12
+    axisNumber: 6
+    invert: 0
+    clamp: 1
+    compareGreater: 1
+    compareVal: 0.4
+    rescaleAxis: 0
+    rescaleAxisMin: 0
+    rescaleAxisMax: 1
+    defaultVal: 0
+    displayName: DPAD Right
+  - buttonType: 30
+    axisNumber: 6
+    invert: 0
+    clamp: 0
+    compareGreater: 1
+    compareVal: 0.4
+    rescaleAxis: 0
+    rescaleAxisMin: 0
+    rescaleAxisMax: 1
+    defaultVal: 0
+    displayName: DPAD X
+  - buttonType: 13
+    axisNumber: 7
+    invert: 0
+    clamp: 1
+    compareGreater: 1
+    compareVal: 0.4
+    rescaleAxis: 0
+    rescaleAxisMin: 0
+    rescaleAxisMax: 1
+    defaultVal: 0
+    displayName: DPAD Up
+  - buttonType: 14
+    axisNumber: 7
+    invert: 1
+    clamp: 1
+    compareGreater: 1
+    compareVal: 0.4
+    rescaleAxis: 0
+    rescaleAxisMin: 0
+    rescaleAxisMax: 1
+    defaultVal: 0
+    displayName: DPAD Down
+  - buttonType: 31
+    axisNumber: 7
+    invert: 0
+    clamp: 0
+    compareGreater: 1
+    compareVal: 0.4
+    rescaleAxis: 0
+    rescaleAxisMin: 0
+    rescaleAxisMax: 1
+    defaultVal: 0
+    displayName: DPAD Y

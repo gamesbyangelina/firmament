@@ -1,0 +1,242 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93664c924306149c9abd8698e3655c26, type: 3}
+  m_Name: MainControlScheme
+  m_EditorClassIdentifier: 
+  controls:
+  - name: Left
+    keyboardInputs: 04000000
+    gamepadInputs: 0f0000000b000000
+    mouseInputs: 
+    virtualInputs: []
+  - name: Right
+    keyboardInputs: 03000000
+    gamepadInputs: 100000000c000000
+    mouseInputs: 
+    virtualInputs: []
+  - name: Up
+    keyboardInputs: 01000000
+    gamepadInputs: 110000000d000000
+    mouseInputs: 
+    virtualInputs: []
+  - name: Down
+    keyboardInputs: 02000000
+    gamepadInputs: 120000000e000000
+    mouseInputs: 
+    virtualInputs: []
+  - name: Jump
+    keyboardInputs: 33000000
+    gamepadInputs: 01000000
+    mouseInputs: 
+    virtualInputs: []
+  - name: Fire1
+    keyboardInputs: 22000000
+    gamepadInputs: 08000000
+    mouseInputs: 0c000000
+    virtualInputs: []
+  - name: Fire2
+    keyboardInputs: 24000000
+    gamepadInputs: 06000000
+    mouseInputs: 0d000000
+    virtualInputs: []
+  - name: Fire3
+    keyboardInputs: 20000000
+    gamepadInputs: 05000000
+    mouseInputs: 0e000000
+    virtualInputs: []
+  - name: Look Left
+    keyboardInputs: 
+    gamepadInputs: 13000000
+    mouseInputs: 01000000
+    virtualInputs: []
+  - name: Look Right
+    keyboardInputs: 
+    gamepadInputs: 14000000
+    mouseInputs: 02000000
+    virtualInputs: []
+  - name: Look Up
+    keyboardInputs: 
+    gamepadInputs: 15000000
+    mouseInputs: 03000000
+    virtualInputs: []
+  - name: Look Down
+    keyboardInputs: 
+    gamepadInputs: 16000000
+    mouseInputs: 04000000
+    virtualInputs: []
+  - name: Confirm
+    keyboardInputs: 30000000
+    gamepadInputs: 01000000
+    mouseInputs: 
+    virtualInputs: []
+  - name: Cancel
+    keyboardInputs: 32000000
+    gamepadInputs: 02000000
+    mouseInputs: 
+    virtualInputs: []
+  - name: Join
+    keyboardInputs: 30000000
+    gamepadInputs: 17000000
+    mouseInputs: 
+    virtualInputs: []
+  - name: Wind
+    keyboardInputs: 1e000000
+    gamepadInputs: 
+    mouseInputs: 
+    virtualInputs: []
+  - name: ExitLevel
+    keyboardInputs: 15000000
+    gamepadInputs: 18000000
+    mouseInputs: 
+    virtualInputs: []
+  - name: ShowRoster
+    keyboardInputs: 2e000000
+    gamepadInputs: 
+    mouseInputs: 
+    virtualInputs: []
+  - name: UR
+    keyboardInputs: 3d000000
+    gamepadInputs: 
+    mouseInputs: 
+    virtualInputs: []
+  - name: U
+    keyboardInputs: 3c00000001000000
+    gamepadInputs: 
+    mouseInputs: 
+    virtualInputs: []
+  - name: UL
+    keyboardInputs: 3b000000
+    gamepadInputs: 
+    mouseInputs: 
+    virtualInputs: []
+  - name: DR
+    keyboardInputs: 37000000
+    gamepadInputs: 
+    mouseInputs: 
+    virtualInputs: []
+  - name: D
+    keyboardInputs: 3600000002000000
+    gamepadInputs: 
+    mouseInputs: 
+    virtualInputs: []
+  - name: DL
+    keyboardInputs: 35000000
+    gamepadInputs: 
+    mouseInputs: 
+    virtualInputs: []
+  - name: L
+    keyboardInputs: 3800000004000000
+    gamepadInputs: 
+    mouseInputs: 
+    virtualInputs: []
+  - name: R
+    keyboardInputs: 3a00000003000000
+    gamepadInputs: 
+    mouseInputs: 
+    virtualInputs: []
+  - name: CENTRE
+    keyboardInputs: 39000000
+    gamepadInputs: 
+    mouseInputs: 
+    virtualInputs: []
+  - name: PICKUP
+    keyboardInputs: 14000000
+    gamepadInputs: 
+    mouseInputs: 
+    virtualInputs: []
+  - name: 1
+    keyboardInputs: 5a000000
+    gamepadInputs: 
+    mouseInputs: 
+    virtualInputs: []
+  - name: 2
+    keyboardInputs: 5b000000
+    gamepadInputs: 
+    mouseInputs: 
+    virtualInputs: []
+  - name: 3
+    keyboardInputs: 5c000000
+    gamepadInputs: 
+    mouseInputs: 
+    virtualInputs: []
+  - name: 4
+    keyboardInputs: 5d000000
+    gamepadInputs: 
+    mouseInputs: 
+    virtualInputs: []
+  - name: 5
+    keyboardInputs: 5e000000
+    gamepadInputs: 
+    mouseInputs: 
+    virtualInputs: []
+  - name: INVENTORY
+    keyboardInputs: 0d000000
+    gamepadInputs: 
+    mouseInputs: 
+    virtualInputs: []
+  - name: UNEQUIP
+    keyboardInputs: 19000000
+    gamepadInputs: 
+    mouseInputs: 
+    virtualInputs: []
+  - name: EQUIP
+    keyboardInputs: 09000000
+    gamepadInputs: 
+    mouseInputs: 
+    virtualInputs: []
+  - name: DRINK
+    keyboardInputs: 08000000
+    gamepadInputs: 
+    mouseInputs: 
+    virtualInputs: []
+  - name: THROW
+    keyboardInputs: 18000000
+    gamepadInputs: 
+    mouseInputs: 
+    virtualInputs: []
+  smartControls:
+  - name: Horizontal
+    positiveControl: Right
+    negativeControl: Left
+    deadzone: 0.001
+    gravity: 3
+    speed: 3
+    snap: 0
+    scale: 1
+    invert: 0
+  - name: Vertical
+    positiveControl: Up
+    negativeControl: Down
+    deadzone: 0.001
+    gravity: 3
+    speed: 3
+    snap: 0
+    scale: 1
+    invert: 0
+  - name: Look Horizontal
+    positiveControl: Look Right
+    negativeControl: Look Left
+    deadzone: 0.001
+    gravity: 3
+    speed: 3
+    snap: 0
+    scale: 1
+    invert: 0
+  - name: Look Vertical
+    positiveControl: Look Up
+    negativeControl: Look Down
+    deadzone: 0.001
+    gravity: 3
+    speed: 3
+    snap: 0
+    scale: 1
+    invert: 0
