@@ -253,7 +253,6 @@ public class GameMap : MonoBehaviour
     }
 
     public void UpdateVisionCone(FEntity visionEntity){
-        return;
         Vector3 actualPosition = GetMapLocation(visionEntity);
         Collider2D[] cs = Physics2D.OverlapCircleAll(actualPosition, 4, 1 << 9);
         foreach(Collider2D c in cs){
