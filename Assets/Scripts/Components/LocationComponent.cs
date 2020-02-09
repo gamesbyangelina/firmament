@@ -6,6 +6,19 @@ using DG.Tweening;
 public class LocationComponent : FComponent
 {
     
+    /*
+        One of the most fundamental components that almost everything has.
+
+        This is one of the components that actually breaks containment quite a bit and reaches out to
+        e.g. initiate tweening, or adjust positions. In an ideal world, we'd not do this, and instead
+        we'd have a separate view/rendering step that updates the screen at the end of each turn. If
+        something moved, it can do the tween then.
+
+        I didn't do that here for a couple of reasons - one, it felt like overkill for this simple example,
+        and two, the reliance on Monobehaviour objects containing both the sprite view stuff *and* the component
+        logic stuff, meant that it was already kinda coupled together.
+    */
+
     public int x;
     public int y;
 

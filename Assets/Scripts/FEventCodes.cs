@@ -5,6 +5,22 @@ using UnityEngine;
 public class FEventCodes 
 {
 
+    /*
+        Some notes here: this message list was rapidly written as I wrote this example library.
+        Some messages are unused but remain here, or don't do anything of any use.
+
+        This is one of the parts of an ECS implementation (for a systems-driven game) that differentiates
+        things a lot, as far as I can tell. Is losing an item the same as dropping an item? This is
+        one of the places you'll make that call.
+
+        Even though this exact example won't be taken much further, I actually ended up planning quite long-term
+        here. So even though there's only one example of an elemental attack, we still decompose everything 
+        into separate stages and so on.
+
+        There's a lot of weirdness here and the clean divisions between parts of the system get a little
+        blurry. Don't be surprised if this is one of the bits of the codebase you disagree with!
+    */
+
     public static string GET_ALL_PICKABLES = "GET_ALL_PICKABLES";
     public static string GET_WIELDED_LIST = "GET_WIELDED_LIST";
     public static string GET_VISIBLE_LIST = "GET_VISIBLE_LIST";

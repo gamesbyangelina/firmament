@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class GambitModel : Model
 {
+
 	public FEntity objectEntityPrefab;
 	public FEntity itemEntityPrefab;
 	public FEntity actorEntityPrefab;

@@ -5,6 +5,7 @@ using UnityEngine;
 public class DisarmAttack : FComponent
 {
     
+    //Most of the probabilities in the example are 100% because I prefer that kind of thing.
     public float disarmChance = 1f;
 
     public override FEvent PropagateEvent(FEvent ev){

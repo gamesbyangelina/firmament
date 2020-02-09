@@ -5,6 +5,17 @@ using UnityEngine;
 public class EquipSlotsComponent : FComponent
 {
     
+    /*
+        Ok so, this is a bit of a mess. Also the inventory.
+
+        One big issue I had was trying to figure out if your equipped sword should still be in your inventory.
+        It kind of doesn't matter as long as you stick with it, but some things become more or less simple in
+        each case. In the end I went with equipped items still being in your inventory. 
+
+        So you have slots, slots can contain items (as long as they're equippable). It gets a bit dicey when
+        you drop something, for example, because you have to unequip it and lose it from your inventory.
+    */
+
     Dictionary<string, EntitySlot> slots;
 
     protected override void _Setup(){

@@ -5,6 +5,13 @@ using UnityEngine;
 
 public class Model : MonoBehaviour {
 
+	/*
+		The reason there's something separate here called Gambit is that this example was built on
+		another library I'd been building up for simple turn-based grid-based games. It's not got much
+		code in but it's helpful to me. You can safely ignore this class really, it's just to do with
+		organising the top-level and the model. GambitModel has specific stuff like the dungeon example in.
+	*/
+
 	public string backgroundLayerName;
 	public string mainLayerName;
 	public string foregroundLayerName;

@@ -9,6 +9,17 @@ public class GambitPrototypes : MonoBehaviour
         GambitPrototypes.instance = this;
     }
    
+    /*
+        Brian Bucklew's talk on ECS shows how objects are built from simple prototypes, and I've seen similar in
+        Roguelike Celebration talks about ADOM and other RLs. My original idea was not to use Unity's built-in ECS,
+        which would've let me use proper constructors and stuff, but since I use MonoBehaviours I can't really do
+        that, so we have this somehwat clumsier approach to prototyping. 
+
+        I imagine there's a nicer way of doing this - ScriptableObjects maybe, that MonoBehaviour-but-not class Unity
+        has that I forget about all the time. This works fine here. If you wanted to make your thing bigger, you'd
+        probably want a nicer way of defining these (one of the nice things about Brian's approach is that prototypes
+        can be specified in XML and thus edited outside of code mode).
+    */
     public FEntity SpawnPrototype(string name, int x, int y){
         FEntity res = null;
 

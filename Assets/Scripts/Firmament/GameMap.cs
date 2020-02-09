@@ -5,6 +5,15 @@ using UnityEngine;
 public class GameMap : MonoBehaviour
 {
 
+    /*
+        The map stuff is partly the old Gambit library I've been making, and partly this own thing,
+        and it's the worst part of the library to be honest. I would ignore it if I were you. 
+        A major downside of the ECS being Monobehaviour-based is that it's harder to separate the model
+        from the view (or at least I can't find a way of doing it that I like). So the map gets tangled
+        because it's not just the sprites and the rendering, but it is actually the real game objects
+        too? Anyway. It's fine. But don't worry if this makes no sense to you.
+    */
+
     public static GameMap instance;
     void Awake(){
         GameMap.instance = this;
@@ -14,6 +23,7 @@ public class GameMap : MonoBehaviour
     public MapTile mapTilePrefab;
 
     [Header("Config")]
+    //I used Oryx's 16x24 pixel art set for this, so the spacing is different
     public float widthSpacingFactor = 2f/3f;
     public float heightSpacingFactor = 1;
     
@@ -266,18 +276,7 @@ public class GameMap : MonoBehaviour
                 maps[loc[0]+(loc[1]*width)].Show();
             } 
             
-            // Vector3 d = visionEntity.transform.position-c.transform.position;
-            // RaycastHit2D rch = Physics2D.Raycast(c.transform.position, d, d.magnitude, 1 << 8);
-            // if(rch.collider == null){
-            //     c.gameObject.GetComponent<MapTile>().Show();
-            // }
-            // else{
-            //     RaycastHit2D[] css = Physics2D.RaycastAll(c.transform.position, d, d.magnitude, 1 << 8);
-            //     if(css.Length == 1){
-            //         int[] loc = GetGridLocation(rch.collider.gameObject.GetComponent<FEntity>());
-            //         maps[loc[0]+(loc[1]*width)].Show();
-            //     }
-            // }
+
         }
     }
 
